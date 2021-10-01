@@ -10,5 +10,5 @@ function Duck(type, canFly) {
 }
 
 let duck = new Duck('Beijing', false);
-alert(duck.type);
-alert(duck.canFly);
+console.log(duck.type); // Beijing
+console.log(duck.canFly); // false
