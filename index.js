@@ -1,14 +1,13 @@
 'usestrict';
-// let duck = {
-//     type: "redheaded",
-//     canFly: true
-// }
-
 function Duck(type, canFly) {
     this.type = type;
     this.canFly = canFly;
 }
 
-let duck = new Duck('Beijing', false);
-console.log(duck.type); // Beijing
-console.log(duck.canFly); // false
+let beijing = new Duck('Beijing', false);
+console.log(beijing.type); // Beijing
+console.log(beijing.canFly); // false
+
+let redheaded = new Duck('Redheaded', true);
+console.log(redheaded.type); // Redheaded
+console.log(redheaded.canFly); // true
